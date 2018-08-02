@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const port = 9000;
+const port = process.env.NODE_ENV || 9000;
 const queries = require('./queries');
 
 const app = express();
