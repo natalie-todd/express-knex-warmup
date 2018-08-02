@@ -12,3 +12,5 @@ module.exports = {
     connection: process.env.DATABASE_URL + '?ssl=true'
   }
 }
+
+//will look for production first. Has to check to see if there is a port assigned by Heroku. 
